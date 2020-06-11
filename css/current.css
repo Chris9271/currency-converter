@@ -1,0 +1,84 @@
+.header {
+  border-bottom: 5px solid skyblue; }
+
+.back {
+  text-align: center;
+  margin-top: 80px;
+  width: 100%; }
+
+.ground {
+  background-color: aquamarine; }
+
+.menu {
+  list-style: none;
+  margin: 10px;
+  float: right; }
+
+.menu li {
+  display: inline-block;
+  margin: 10px 15px;
+  text-align: center;
+  padding: 20px 10px; }
+
+.col-md-3,
+.col-md-2 {
+  margin-top: 50px; }
+
+.col-md-6 {
+  margin-top: 50px;
+  text-align: center; }
+
+.col-md-6 p {
+  margin: 20px; }
+
+#input1,
+#input2 {
+  width: 70%;
+  height: 30px;
+  border: 1px inset #ccc; }
+
+#amount-input,
+#res-input {
+  border: 1px inset #ccc; }
+
+.dollarsign {
+  display: inline-block;
+  position: relative; }
+
+.dollarsign input {
+  padding-left: 15px; }
+
+.dollarsign::before {
+  position: absolute;
+  content: "$";
+  left: 5px;
+  top: 2px; }
+
+.noPaddingL {
+  padding-left: 0; }
+
+.noPaddingR {
+  padding-right: 0; }
+
+@media (max-width: 830px) {
+  .col-md-8 .menu {
+    margin: 0 auto;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; } }
+
+@media (max-width: 600px) {
+  .col-md-8 .menu {
+    margin: 0 auto;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; } }
+
+@media (max-width: 320px) {
+  .col-md-8 .menu {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    width: 125%; } }
+
+/*# sourceMappingURL=current.css.map */
